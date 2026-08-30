@@ -186,8 +186,3 @@ Thus, image segmentation was successfully performed using **Global Thresholding,
 The three thresholding methods were applied to the grayscale image and their results were displayed and compared successfully.
 
 ---
-
-## Developed By
-
-**Name:** VENKATANATHAN P R  
-**Register No:** 212223240173
