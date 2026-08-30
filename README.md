@@ -26,6 +26,39 @@ The program performs the following operations:
 - Matplotlib
 
 ---
+## Algorithm
+
+### Step 1: Import Libraries
+
+Import the required libraries such as OpenCV, NumPy, and Matplotlib for image processing and visualization.
+
+### Step 2: Read the Image
+
+Load the input image using OpenCV and prepare it for image processing.
+
+### Step 3: Convert to Grayscale
+
+Convert the input color image into grayscale format to simplify the segmentation process.
+
+### Step 4: Global Thresholding
+
+Select a fixed threshold value and separate the foreground and background pixels based on this threshold.
+
+### Step 5: Adaptive Thresholding
+
+Calculate threshold values for different local regions of the image and apply Adaptive Thresholding using the Gaussian method.
+
+### Step 6: Otsu's Thresholding
+
+Automatically determine the optimal threshold value from the image and apply Otsu's Thresholding technique for segmentation.
+
+### Step 7: Display the Results
+
+Display the results of Global Thresholding, Adaptive Thresholding, and Otsu's Thresholding using Matplotlib.
+
+### Step 8: Compare the Results
+
+Compare the segmentation results obtained from the three thresholding techniques and observe the differences in the segmented images.
 
 # Program
 
